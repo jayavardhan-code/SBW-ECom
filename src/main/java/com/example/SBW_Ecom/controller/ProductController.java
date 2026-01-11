@@ -36,4 +36,5 @@ public class ProductController {
     public List<ProductView> getProductsByCategory(@PathVariable String categoryName) {
         return service.getProductByCategory(categoryName);
     }
+
 }
